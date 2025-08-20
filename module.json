@@ -1,160 +1,148 @@
 {
-  "id": "southern-realm-games",
-  "title": "Southern Realm Games Playtest",
-  "version": "1.0.3",
-  "url": "https://github.com/aclethos/Southern-Realm-Games",
-  "download": "https://github.com/aclethos/Southern-Realm-Games/archive/refs/heads/master.zip",
-  "manifest": "https://raw.githubusercontent.com/aclethos/Southern-Realm-Games/master/module.json",
+  "id": "blackpowder-magic-and-plot-by-southern-realm-games",
+  "title": "Blackpowder, Magic, & Plot by Southern Realm Games",
+  "version": "1.0.1",
   "compatibility": {
-    "minimum": "11",
-    "verified": "11"
+    "minimum": "12",
+    "verified": "13"
   },
   "authors": [
     {
-      "name": "Dustin Voss",
-      "discord": "Aclethos"
-    },
-    {
-      "name": "Matthew C. Ninness",
-      "discord": "tabletop.obscura"
-    },
-    {
-      "name": "Dan Hutton",
-      "discord": "dantalkygamer"
-    },
-    {
-      "name": "Shawn Pommier",
-      "discord": "eldritchdream"
-    },
-    {
-      "name": "Simon Hunter",
-      "discord": "simon.the.hunter"
+      "name": "Obscura (Matthew C. Ninness)",
+      "flags": {}
     }
   ],
-  "relationships": {
-    "systems": [
-      {
-        "id": "pf2e",
-        "type": "system"
-      }
-    ]
-  },
+  "packFolders": [
+    {
+      "name": "Blackpowder, Magic, & Plot",
+      "sorting": "m",
+      "packs": [
+        "blackpowder-magic-and-plot",
+        "bmp-actors",
+        "bmp-archetypes",
+        "bmp-feats",
+        "bmp-items",
+        "bmp-spells",
+        "bmp-subclasses"
+      ],
+      "color": null,
+      "folders": []
+    }
+  ],
   "packs": [
     {
-      "name": "legendary-luminaries-actions",
-      "label": "Legendary Luminaries - Actions",
-      "path": "packs/legendary-luminaries-actions",
-      "type": "Item",
+      "name": "blackpowder-magic-and-plot",
+      "label": "Blackpowder, Magic, & Plot",
+      "path": "packs/blackpowder-magic-and-plot",
+      "type": "JournalEntry",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     },
     {
-      "name": "legendary-luminaries-archetypes",
-      "label": "Legendary Luminaries - Archetypes",
-      "path": "packs/legendary-luminaries-archetypes",
+      "name": "bmp-subclasses",
+      "label": "BMP - Subclasses",
+      "path": "packs/bmp-subclasses",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
-    },
-     {
-      "name": "legendary-luminaries-spells",
-      "label": "Legendary Luminaries - Spells",
-      "path": "packs/legendary-luminaries-spells",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
-    },
-     {
-      "name": "blackpowder-actions",
-      "label": "Blackpowder - Actions",
-      "path": "packs/blackpowder-actions",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
-    },
-     {
-      "name": "blackpowder-equipment",
-      "label": "Blackpowder - Equipment",
-      "path": "packs/blackpowder-equipment",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
-    },
-     {
-      "name": "blackpowder-feats",
-      "label": "Blackpowder - Feats",
-      "path": "packs/blackpowder-feats",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     },
     {
-      "name": "blackpowder-subclass",
-      "label": "Blackpowder - Subclass",
-      "path": "packs/blackpowder-subclass",
+      "name": "bmp-spells",
+      "label": "BMP - Spells",
+      "path": "packs/bmp-spells",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
+    },
+    {
+      "name": "bmp-feats",
+      "label": "BMP - Feats",
+      "path": "packs/bmp-feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bmp-items",
+      "label": "BMP - Items",
+      "path": "packs/bmp-items",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bmp-archetypes",
+      "label": "BMP - Archetypes",
+      "path": "packs/bmp-archetypes",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bmp-actors",
+      "label": "BMP - Actors",
+      "path": "packs/bmp-actors",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
- "flags": {
-  "southern-realm-games": {
-    "pf2e-homebrew": {
-      "featTraits": {
-        "reassess": "Reassess"
-      },
-      "weaponTraits": {
-        "attached-to-fortress-shield": {
-          "label": "Attached to Fortress Shield",
-          "description": "A weapon with this trait is attached to a Fortress Shield"
-        },
-        "attached-to-tower-shield": {
-          "label": "Attached to Tower Shield",
-          "description": "A weapon with this trait is attached to a Tower Shield"
-        },
-        "imprecise": {
-          "label": "Imprecise",
-          "description": "A weapon with this trait cannot deal precision damage."
+  "description": "",
+  "flags": {
+    "blackpowder-magic-and-plot-by-southern-realm-games": {
+      "pf2e-homebrew": {
+        "weaponTraits": {
+          "imprecise": {
+            "label": "Imprecise",
+            "description": "An imprecise weapon has a broad area of impact that makes it unsuitable for pinpoint attacks beyond point-blank range. You cannot deal precision damage with a weapon that has this trait past a range of 5 feet."
+          },
+          "melee-fusion": {
+            "label": "Melee Fusion",
+            "description": "Melee fusion is a trait found exclusively on melee weapons. The trait functions exactly the same as Critical Fusion does on combination weapons - allowing you to choose any of the alternate critical specialization effects - only there is no ranged form. Instead, the weapon lists a reload value and ammunition cost as if it were a ranged weapon, but it is used exclusively for the Melee Fusion effect. It will list the weapon group that the critical fusion effect is based on (e.g. Melee Fusion - Firearms). As with ranged strikes, it must be reloaded before using the melee fusion effect again. The weapon may list traits related to reloading, such as capacity or repeating; if it does, this only applies to reloads for this trait."
+          },
+          "capacity-six": {
+            "label": "Capacity 6",
+            "description": "Weapons with this trait typically have multiple barrels or chambers capable of containing a bolt or round of ammunition. Capacity always includes a number indicating the number of barrels or chambers. After a capacity weapon is fired, you can select the next loaded barrel or chamber as an Interact action that doesn’t require a free hand. You can use abilities that let or require you to Interact to reload to switch barrels or chambers of a capacity weapon instead. Each barrel or chamber can be reloaded after it’s fired as a separate Interact action."
+          },
+          "tethered-reload-1": {
+            "label": "Tethered Reload 1",
+            "description": "Found exclusively on ranged weapons with a reload value, a tethered reload has a single projectile attached to the weapon that fires it via a chain or rope. The trait will have a number value, which is the maximum range increment you can fire it to (1 is within the first increment, 2 within the second, etc.) Effects that would increase your weapon’s range increment do increase the range increments of a tethered reload. Instead of loading the weapon normally, Interacting to reload retracts the projectile and locks it back into the firing mechanism. If the weapon is a combination weapon, the projectile may be a part of or even the entire melee form competent, in which case you will not be able to attack in its melee form without reloading it first. Due to the bespoke nature of the projectile, you cannot load these weapons with special ammunition, such as alchemical or magical ammunition."
+          },
+          "tethered-reload-2": {
+            "label": "Tethered Reload 2",
+            "description": "Found exclusively on ranged weapons with a reload value, a tethered reload has a single projectile attached to the weapon that fires it via a chain or rope. The trait will have a number value, which is the maximum range increment you can fire it to (1 is within the first increment, 2 within the second, etc.) Effects that would increase your weapon’s range increment do increase the range increments of a tethered reload. Instead of loading the weapon normally, Interacting to reload retracts the projectile and locks it back into the firing mechanism. If the weapon is a combination weapon, the projectile may be a part of or even the entire melee form competent, in which case you will not be able to attack in its melee form without reloading it first. Due to the bespoke nature of the projectile, you cannot load these weapons with special ammunition, such as alchemical or magical ammunition."
+          },
+          "runed": {
+            "label": "Runed",
+            "description": "Spellguns with this trait aren’t consumable and may be etched with fundamental weapon runes but not property runes. Otherwise they follow all other rules for spellguns."
+          },
+          "spellgun-1": {
+            "label": "Spellgun",
+            "description": "The spellgun trait appears on items that can generate a magical effect that flies out like a bullet. You can make either a spell attack roll with a spellgun or a ranged attack roll using your proficiency with simple firearms. Spellguns have a range increment, which applies regardless of which type of attack roll you make. Though you can use your modifier for simple firearms, a spellgun isn't actually a firearm. You don't get the damage of a firearm Strike, nor other benefits like critical specialization. Similarly, you can't load or reload a spellgun, affix talismans to one, make a spellgun Strike as part of an action that lets you make a firearm Strike, and so on."
+          }
         }
       }
     }
-  }
-},
-  "packFolders":[
-    {
-      "name": "Southern Realm Games",
-    "sorting": "m",
-    "color": "#974ADC",
-    "packs": [
-      "blackpowder-actions",
-      "blackpowder-equipment",
-      "blackpowder-feats",
-      "blackpowder-subclass",
-      "legendary-luminaries-actions",
-      "legendary-luminaries-archetypes",
-      "legendary-luminaries-spells"
-    ]
-    }
-  ]
+  }  
 }
