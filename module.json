@@ -1,6 +1,9 @@
 {
   "id": "blackpowder-magic-and-plot-by-southern-realm-games",
   "title": "Blackpowder, Magic, & Plot by Southern Realm Games",
+  "url": "https://github.com/aclethos/Blackpowder-Magic-Plot",
+  "download": "",
+  "manifest": "https://github.com/aclethos/Blackpowder-Magic-Plot/releases/latest/download/module.json",
   "version": "1.0.1",
   "compatibility": {
     "minimum": "12",
